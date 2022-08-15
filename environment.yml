@@ -1,0 +1,15 @@
+name: deepqu
+
+channels:
+  - conda-forge
+
+dependencies:
+  - ipython
+  - ipykernel
+  - openjdk=11
+  - pyspark=3.0
+  - findspark
+  - pandas
+  - pip
+  - pip:
+    - pydeequ
